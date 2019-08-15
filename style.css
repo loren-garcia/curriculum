@@ -1,0 +1,146 @@
+body {
+    margin: 0%;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 20px;
+    letter-spacing: 1px;
+    font-weight: 100;
+    display: flex;
+    background-color:rgb(20, 19, 18);
+}
+
+ul {
+    list-style: none;
+}
+
+h1 {
+    font-size: 5em;
+}
+
+h2 {
+    font-size: 2em;
+    margin-top: 3%;
+    margin-left: 4%;
+    color: darkorange;
+}
+
+h1, h2 {
+    text-align: center;
+}
+
+h4 {
+    text-align: center;
+    margin-bottom: 5px;
+}
+
+#left-background {
+    display: flex;
+    flex: 1;
+    background-image: url("darth-vader-paper.png");
+    background-size: 100%;
+    justify-content: center;
+}
+
+#left-container {
+    width: 75%;
+    background-color: rgba(255, 255, 255, 0.8);    
+    border: 1px solid white;
+}
+
+#right-container {
+    flex: 3;
+}
+
+#right-content {
+    display: block;
+    color: white;
+    padding-right: 4%; 
+}
+
+#right-banner {
+    display: flex;
+    height: 25%;
+    background-image: url("darth-vader-banner.jpg");
+    background-repeat: no-repeat;
+    background-size: 130%;
+    color: white; 
+}
+
+#right-banner-info {
+    display: block;
+    text-align: center;  
+}
+
+#right-content p, ul {
+    text-align: center;
+}
+
+#picture img{
+    height: 40%;
+    width: 40%;
+    margin-left: 30%;
+    margin-top: 30%;
+    margin-bottom: 10%;
+    clip-path: ellipse(55px 80px at center);
+}
+
+#contact ul {
+    text-align: end;
+    margin-right: 15%;
+    margin-bottom: 15%;
+    margin-top: 10%;
+    font-size: 0.6em;
+}
+
+#contact img {
+    height: 20px;
+    width: 20px;
+    padding-left: 5%;
+}
+
+#contact ul li {
+    margin-top: 10px;
+}
+
+#skills ul {
+    margin-top: 10%;
+    margin-right: 15%;
+}
+
+#skills ul li {
+    margin-top: 10px;
+}
+
+.checked {
+    color: darkorange;
+}
+
+#education ul {
+    
+    letter-spacing: 2px;
+    line-height: 30px;
+}
+
+#experiences ul {
+    letter-spacing: 2px;
+    line-height: 30px;
+}
+
+#leap ul {
+    letter-spacing: 2px;
+    line-height: 30px;
+}
+
+@media screen and (max-width: 930px) {
+    h1 {
+        font-size: 4em;
+    }
+}
+
+@media screen and (max-width: 750px) {
+    h1 {
+        font-size: 3.5em;
+    }
+    #right-banner-info p {
+        font-size: 0.8em;
+    }
+}
